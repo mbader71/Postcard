@@ -100,6 +100,15 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jV-CP-PIJ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="149" width="235" height="36"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -127,6 +136,7 @@
                                 <exclude reference="1yn-oF-bDp"/>
                                 <exclude reference="Ss4-QO-r2R"/>
                                 <exclude reference="cT7-cK-jXS"/>
+                                <exclude reference="0jV-CP-PIJ"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="RQg-7V-fiS"/>
@@ -154,6 +164,7 @@
                                 <include reference="1yn-oF-bDp"/>
                                 <include reference="Ss4-QO-r2R"/>
                                 <include reference="cT7-cK-jXS"/>
+                                <include reference="0jV-CP-PIJ"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="RQg-7V-fiS"/>
@@ -180,6 +191,7 @@
                         <outlet property="enterNameTextField" destination="XaI-4Q-ofu" id="rGE-Ux-0CT"/>
                         <outlet property="mailButton" destination="1yn-oF-bDp" id="33U-Vr-HVJ"/>
                         <outlet property="messageLabel" destination="Ss4-QO-r2R" id="3tE-KI-JYh"/>
+                        <outlet property="nameLabel" destination="0jV-CP-PIJ" id="5MX-Rw-zVU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
